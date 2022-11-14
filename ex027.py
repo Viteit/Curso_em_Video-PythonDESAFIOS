@@ -1,2 +1,5 @@
-frase = 'Curso em Video Python'
-print()
+n = str(input('Digite seu nome compelto: ')).strip()
+nome = n.split()
+print('Muito prazer em te conhecer!')
+print('Seu primeiro nome é {}'.format(nome[0]))
+print('Seu último nome é {}'.format(nome[len(nome)-1]))
